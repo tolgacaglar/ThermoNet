@@ -3,7 +3,9 @@
 import os
 import sys
 import numpy as np
-from htmd.ui import *
+# from htmd.ui import *
+from moleculekit.molecule import Molecule
+
 from moleculekit.tools.voxeldescriptors import getVoxelDescriptors,getCenters, rotateCoordinates
 from moleculekit.tools.atomtyper import prepareProteinForAtomtyping
 from Bio.PDB import PDBParser, NeighborSearch
